@@ -7,6 +7,22 @@
     <title>スライドショー</title>
 </head>
 <body>
-    <h1>スライドショー</h1>
+    <div class="slide-container">
+        <div class="slide">
+            <div class="slide__img">
+                <img id="slideImg" src="assets/img/image1.jpg" alt="">
+            </div>
+            <div class="slide__pagination">
+                <a href="" onclick="movePage('prev'); return false;">
+                    <img src="assets/img/prev.png" alt="">
+                </a>
+                <span id="pageNum"></span>
+                <a href="" onclick="movePage('next'); return false;">
+                    <img src="assets/img/next.png" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="assets/js/index.js"></script>
 </body>
 </html>

@@ -1,0 +1,30 @@
+body{
+    background: #f8f8f8;
+}
+
+.slide-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    .slide{
+        background: #d8d8d8;
+        border: 2px solid #979797;
+        padding: 1rem;
+        &__img{
+            background: #fff;
+            img{
+                width: 500px;
+            }
+        }
+        &__pagination{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #fff;
+            span{
+                color: #979797;
+            }
+        }
+    }
+}
